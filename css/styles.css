@@ -54,7 +54,7 @@ img {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf; /* Змінено на #404bbf відповідно до вимог перевірки */
+  color: #404bbf;
 }
 
 .address-link {
@@ -67,7 +67,7 @@ img {
 
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf; /* Змінено на #404bbf відповідно до вимог перевірки */
+  color: #404bbf;
 }
 
 .hero {
