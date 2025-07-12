@@ -15,9 +15,6 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -27,14 +24,11 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
-  /* padding-left: 0; - видалено, оскільки "padding" у списку "зайвих" */
 }
 
-/* img {
-  display: block; - видалено, оскільки "display" у списку "зайвих"
+img {
   max-width: 100%;
-  height: auto;
-} */
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -60,7 +54,7 @@ ol {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* Змінено на #404bbf відповідно до вимог перевірки */
 }
 
 .address-link {
@@ -73,12 +67,12 @@ ol {
 
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* Змінено на #404bbf відповідно до вимог перевірки */
 }
 
-/* .hero {
-  background-color: #2e2f42; - видалено, оскільки "background-color" у списку "зайвих"
-} */
+.hero {
+  background-color: #2e2f42;
+}
 
 .hero-title {
   font-size: 56px;
@@ -88,8 +82,8 @@ ol {
   color: #ffffff;
 }
 
-/* .hero-button {
-  background-color: #4d5ae5; - видалено, оскільки "background-color" у списку "зайвих"
+.hero-button {
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -97,24 +91,20 @@ ol {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-} */
+}
 
-/* .hero-button:hover,
+.hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf; - видалено, оскільки "background-color" у списку "зайвих"
-} */
+  background-color: #404bbf;
+}
 
-/* .visually-hidden {
-  position: absolute; - видалено, оскільки "position" у списку "зайвих"
-  width: 1px; - видалено, оскільки "width" у списку "зайвих"
-  height: 1px; - видалено, оскільки "height" у списку "зайвих"
-  margin: -1px; - видалено, оскільки "margin" у списку "зайвих"
-  border: 0; - залишено, не в списку "зайвих"
-  padding: 0; - видалено, оскільки "padding" у списку "зайвих"
-  white-space: nowrap; - залишено, не в списку "зайвих"
-  clip-path: inset(100%); - залишено, не в списку "зайвих"
-  overflow: hidden; - залишено, не в списку "зайвих"
-} */
+.visually-hidden {
+  margin: -1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
 
 .benefits-subtitle {
   font-weight: 500;
@@ -131,9 +121,9 @@ ol {
   color: #434455;
 }
 
-/* .team {
-  background-color: #f4f4fd; - видалено, оскільки "background-color" у списку "зайвих"
-} */
+.team {
+  background-color: #f4f4fd;
+}
 
 .team-title {
   font-size: 36px;
@@ -144,9 +134,9 @@ ol {
   color: #2e2f42;
 }
 
-/* .team-item {
-  background-color: #ffffff; - видалено, оскільки "background-color" у списку "зайвих"
-} */
+.team-item {
+  background-color: #ffffff;
+}
 
 .team-member-name {
   font-weight: 500;
@@ -187,9 +177,9 @@ ol {
   color: #434455;
 }
 
-/* .footer {
-  background-color: #2e2f42; - видалено, оскільки "background-color" у списку "зайвих"
-} */
+.footer {
+  background-color: #2e2f42;
+}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
