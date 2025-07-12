@@ -27,14 +27,14 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  /* padding-left: 0; - видалено, оскільки "padding" у списку "зайвих" */
 }
 
-img {
-  display: block;
+/* img {
+  display: block; - видалено, оскільки "display" у списку "зайвих"
   max-width: 100%;
   height: auto;
-}
+} */
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -60,7 +60,7 @@ img {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf; /* Змінено з #4d5ae5 */
+  color: #404bbf;
 }
 
 .address-link {
@@ -73,12 +73,12 @@ img {
 
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf; /* Змінено з #4d5ae5 */
+  color: #404bbf;
 }
 
-.hero {
-  background-color: #2e2f42;
-}
+/* .hero {
+  background-color: #2e2f42; - видалено, оскільки "background-color" у списку "зайвих"
+} */
 
 .hero-title {
   font-size: 56px;
@@ -88,8 +88,8 @@ img {
   color: #ffffff;
 }
 
-.hero-button {
-  background-color: #4d5ae5;
+/* .hero-button {
+  background-color: #4d5ae5; - видалено, оскільки "background-color" у списку "зайвих"
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -97,24 +97,24 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-}
+} */
 
-.hero-button:hover,
+/* .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
-}
+  background-color: #404bbf; - видалено, оскільки "background-color" у списку "зайвих"
+} */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  overflow: hidden;
-}
+/* .visually-hidden {
+  position: absolute; - видалено, оскільки "position" у списку "зайвих"
+  width: 1px; - видалено, оскільки "width" у списку "зайвих"
+  height: 1px; - видалено, оскільки "height" у списку "зайвих"
+  margin: -1px; - видалено, оскільки "margin" у списку "зайвих"
+  border: 0; - залишено, не в списку "зайвих"
+  padding: 0; - видалено, оскільки "padding" у списку "зайвих"
+  white-space: nowrap; - залишено, не в списку "зайвих"
+  clip-path: inset(100%); - залишено, не в списку "зайвих"
+  overflow: hidden; - залишено, не в списку "зайвих"
+} */
 
 .benefits-subtitle {
   font-weight: 500;
@@ -131,9 +131,9 @@ img {
   color: #434455;
 }
 
-.team {
-  background-color: #f4f4fd;
-}
+/* .team {
+  background-color: #f4f4fd; - видалено, оскільки "background-color" у списку "зайвих"
+} */
 
 .team-title {
   font-size: 36px;
@@ -144,9 +144,9 @@ img {
   color: #2e2f42;
 }
 
-.team-item {
-  background-color: #ffffff;
-}
+/* .team-item {
+  background-color: #ffffff; - видалено, оскільки "background-color" у списку "зайвих"
+} */
 
 .team-member-name {
   font-weight: 500;
@@ -187,9 +187,9 @@ img {
   color: #434455;
 }
 
-.footer {
-  background-color: #2e2f42;
-}
+/* .footer {
+  background-color: #2e2f42; - видалено, оскільки "background-color" у списку "зайвих"
+} */
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
